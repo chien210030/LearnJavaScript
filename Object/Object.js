@@ -30,12 +30,11 @@ function Animal(name, leg, speed){
 var parrot = new Animal('vet',4,'334');
 //them 1 truong vao constructor
 parrot.age = 18;
-
 console.log(parrot.getName());
 console.log(parrot)
 
 //  OBJECT  prototype
-// OBJECT prototype sử dụng khi mà một OBject constructor đã được khởi tạo
+// OBJECT prototype sử dụng khi mà một OBject constructor đã được khởi tạo thành công
 
 function Student(firstName, lastName){
     this.firstName = firstName;
@@ -68,5 +67,18 @@ function getNextYear(){
     }
 getNextYear();
 // MATH OBJECT
+
+/**
+ * Lấy ngẫu nhiên phần tử của mảng
+Hãy tạo hàm getRandomItem, hàm này nhận 1 tham số là mảng và sẽ trả về ngẫu nhiên 1 phần tử của mảng.
+ */
+var mang =[]
+function getRandomItem(mang) {
+
+    var random = Math.floor(Math.random() * mang.length);
+    return mang[random]
+}
+
+
 
 

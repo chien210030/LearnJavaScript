@@ -1,8 +1,6 @@
 // cac loai ham
 //  declarationFunction 
 
-
-
     function declarationFunction(a,b){
 
         var tong= a+ b;
@@ -11,9 +9,6 @@
         } 
 
 declarationFunction(2,3);
-
-
-
 
 
 // expressionFunction 
