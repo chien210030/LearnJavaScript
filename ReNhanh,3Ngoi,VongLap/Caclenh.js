@@ -1,8 +1,5 @@
 
 
-
-
-
 //SWITCH CASE
 
 function run(fruits) {
